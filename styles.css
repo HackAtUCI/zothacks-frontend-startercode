@@ -7,7 +7,9 @@ ol {
     background-color: goldenrod;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
     padding: 5px;
     border-collapse: collapse;
@@ -37,7 +39,7 @@ table, th, td {
 }
 
 #exampleFormBtn {
-    background-color: #008CBA;
+    background-color: #008cba;
     color: white;
     border-color: white;
     border-radius: 10px;
@@ -50,8 +52,8 @@ table, th, td {
 */
 #exampleFormBtn:hover {
     background-color: white;
-    color: #008CBA;
-    border-color: #008CBA;
+    color: #008cba;
+    border-color: #008cba;
     border-radius: 10px;
 }
 
@@ -72,7 +74,7 @@ table, th, td {
 
 #content1 {
     background-color: lightcoral;
-    padding: 10px; 
+    padding: 10px;
     border: 10px dotted red;
     margin: 100px;
 }
@@ -102,6 +104,10 @@ table, th, td {
 }
 
 @keyframes spin {
-    0%   { transform: rotate(0deg); }
-    100%  { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
