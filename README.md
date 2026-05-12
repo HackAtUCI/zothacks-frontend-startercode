@@ -138,3 +138,18 @@ If you're feeling more advanced, here are some other resources to expand your fr
 - [SASS/SCSS](https://sass-lang.com/) - CSS scripting framework that can potentially give you a more intuitive view on CSS (nested CSS)
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Allow you to structure and space out your elements in pure CSS. You can see this in action when you are using the `display: flex;` styling in your container element.
 - [React](https://reactjs.org/tutorial/tutorial.html) - A JavaScript framework that allows you to build your website using the idea of components.
+
+
+## Troubleshooting
+
+### Live Server not updating
+If your browser isn't reflecting your latest changes, try clicking "Go Live" again to restart the server. Make sure you opened the Live Server from `index.html` specifically, not just any file in the folder.
+
+### CSS changes not showing
+Your browser may be serving a cached version of your stylesheet. Do a hard refresh (`Cmd+Shift+R` on Mac, `Ctrl+Shift+R` on Windows) to force the browser to reload all assets including your CSS.
+
+### JavaScript not working
+Open your browser's DevTools (`Cmd+Option+I` on Mac, `F12` on Windows) and check the **Console** tab for error messages. If you're making API requests, check the **Network** tab to see if requests are failing or returning unexpected responses.
+
+### Images not loading
+Make sure the image file is in the same folder as `index.html` (or that the path in your `src` attribute matches where the file actually is). File names are **case-sensitive**: `Petr.png` and `petr.png` are treated as different files.
