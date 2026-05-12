@@ -94,7 +94,7 @@ Everything is composed of tags. Notice how the `title` tag here has an opening a
 <title>My App</title>
 ```
 
-Everyting is composed of tags and nested tags. Nesting simply means we place a tag inside another. In this example, the `img` image tag is placed in the `a` anchor tag:
+Everything is composed of tags and nested tags. Nesting simply means we place a tag inside another. In this example, the `img` image tag is placed in the `a` anchor tag:
 ```html
 <a href="https://youtu.be/GtL1huin9EE">
     <img id="petr" src="petr.png" alt="petr"/>
@@ -133,7 +133,7 @@ If you've never built a website before, here are a few resources to get you star
 - [How to Make API Requests](https://medium.com/swlh/making-use-of-apis-in-your-front-end-c168e343bea3): Get data using a frontend.
 - [HTTP Requests](https://www.w3schools.com/tags/ref_httpmethods.asp): How the internet communicates. Whenever you go to a URL or submit a form, there is a request that is sent to get or change information.
 
-If you're feeling more advanced, here are some other resourses to expand your front end knowledge,
+If you're feeling more advanced, here are some other resources to expand your front end knowledge,
 - [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - CSS library that containing preset styles
 - [SASS/SCSS](https://sass-lang.com/) - CSS scripting framework that can potentially give you a more intuitive view on CSS (nested CSS)
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Allow you to structure and space out your elements in pure CSS. You can see this in action when you are using the `display: flex;` styling in your container element.
