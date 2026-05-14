@@ -123,6 +123,27 @@ This code allows the javascript code from `script.js` to affect your html (and m
 
 
 ## Resources
+
+### Common Web Dev Terminology
+You'll see words like these throughout the documentation and tutorials linked below (and in browser DevTools):
+
+- **HTML** - HyperText Markup Language: the structure and content of a page (headings, paragraphs, links, images).
+- **Tag / element** - A building block in HTML, usually written with angle brackets, e.g. `<p>...</p>`. The whole thing including its content is often called an **element** while the name in brackets (`p`) is the **tag**.
+- **Attribute** - Extra information on an opening tag (e.g. `href="..."` on `<a>` or `src="..."` on `<img>`).
+- **Class and id** - Common HTML attributes used as hooks for CSS and JavaScript. A **class** can be shared by many elements while an **id** should only be used by one element (e.g. the starter HTML uses `id="petr"` for the petr image).
+- **CSS** - Cascading Style Sheets: rules that control how HTML looks (colors, fonts, layout, spacing).
+- **Selector** - The part of a CSS rule that says which elements get the styles (e.g. a class `.title` or an id `#petr`).
+- **Property (CSS)** - The name of a specific style you're controlling on an element, such as `color`, `margin`, or `display`. In CSS you pair each property with a **value**, such as `color: blue`.
+- **JavaScript (JS)** - A programming language that runs in the browser to add behavior (clicks, animations, fetching data).
+- **Script** - JavaScript code that the browser runs for your page. Often a `.js` file you link using `<script src=...>`.
+- **Function** - A named, reusable block of JavaScript you can call to run some logic, optionally with inputs and a return value.
+- **Event** - Something that happens in the browser (click, key press, page finished loading) that JavaScript can listen for and react to.
+- **DOM** - Document Object Model: the browser's live tree of your HTML that JavaScript can read and change.
+- **API** - Application Programming Interface: a defined way for code to talk to something else. Often a web API over the network that returns data your frontend can use.
+- **HTTP** - HyperText Transfer Protocol: how the browser and servers exchange requests and responses (e.g. loading a page or sending form data).
+
+For many more definitions see the [MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary).
+
 Google and documentation are your best friends!
 - Don't know what an HTML tag does? Look it up or go to the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements).
 - Don't know what a selector is or what certain styles do? Look it up or go to the [MDN CSS Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference).
